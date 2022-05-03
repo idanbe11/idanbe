@@ -8,43 +8,15 @@ header {
 
 }
 
-@media only screen and (min-width: 830px){ 
-.header {
-    background: black;
-    height: 92px;
-    }
-}
 
-@media only screen and (min-width: 1024px){ 
-.col-12 {
-    width: 100%;
-    }
-}
-
-@media only screen and (min-width: 1024px){ 
-[class^="col-"] {
-    float: left;
-    list-style: none;
-    position: relative;
-    }
-}
 .logo{
     padding: 0 5%;
     height: 92px;
     width: 92px;
 }
-@media only screen and (min-width: 830px){ 
-.logo {
-    height: 92px;
-    width: 92px;
-    }
-}
 
-@media only screen and (min-width: 830px) and (-webkit-min-device-pixel-ratio: 1.5), not all, not all{ 
-.logo, .social li a, .blog .author-profile .avatar {
-    background-size: 200px 1200px;
-    }
-}
+
+
 
 ul {
     display: block;
@@ -72,7 +44,7 @@ li {
     position: relative;
     height: 92px;
     border: 0px;
-    padding-left:25px;
+    padding-left:15px;
     padding-right:25px;
 
     }
