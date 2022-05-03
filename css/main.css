@@ -45,6 +45,35 @@ header {
     }
 }
 
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+header > nav {
+    display: none;
+    background: #222222;
+    position: absolute;
+    top: 62px;
+    right: 0px;
+    z-index: 1000;
+    width: 100%;
+}
+
+@media only screen and (min-width: 830px){ 
+li {
+    display: inline-block;
+    float: left;
+    position: relative;
+    height: 92px;
+    border: 0px;
+    }
+}
 .nav_Link{
     color: white;
 } 
