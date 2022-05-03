@@ -6,6 +6,7 @@ header {
     width: 100%;
     z-index: 1000;
 position: absolute;
+
 }
 
 @media only screen and (min-width: 830px){ 
@@ -65,6 +66,7 @@ li {
     border: 0px;
     padding-left:50px;
     padding-right:25px;
+    text-align: center;
 
     }
 }
@@ -73,7 +75,6 @@ li {
     display: inline;
     text-decoration:none;
     font-size: 22px;
-    text-align: center;
 } 
 
 .nav_Link:hover{
