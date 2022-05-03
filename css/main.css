@@ -92,6 +92,10 @@ li {
     color: rgb(156, 156, 156);
 
 }
+i{
+    color: white;
+    font-size: 20px;
+}
 .position{
     float: right;
 }
