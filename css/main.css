@@ -74,12 +74,14 @@ li {
     border: 0px;
     padding-left:25px;
     padding-right:25px;
+
     }
 }
 .nav_Link{
     color: white;
     display: inline;
-
+    text-decoration:none;
+    font-size: 22px;
 } 
 
 .nav_Link:hover{
