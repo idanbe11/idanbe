@@ -1,11 +1,29 @@
 body {
 
-  }
- 
+}
+header {
+    background: #111;
+    height: 62px;
+    padding: 0 5%;
+    width: 90%;
+    position: absolute;
+    z-index: 1000;
+}
+
+@media only screen and (min-width: 830px){ 
+.header {
+    background: #111;
+    height: 92px;
+    }
+}
+
 .nav_Link{
     color: white;
 } 
 
 .nav_Link:hover{
     color: rgb(156, 156, 156);
+}
+.social_Media{
+
 }
