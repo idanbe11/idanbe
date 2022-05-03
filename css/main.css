@@ -86,6 +86,11 @@ li {
     color: rgb(156, 156, 156);
 }
 .social {
+    color: white;
+}
+.social:hover{
+    color: rgb(156, 156, 156);
+
 }
 .position{
     float: right;
