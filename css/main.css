@@ -87,16 +87,21 @@ li {
 }
 .social {
     color: white;
-    font-size: 25px;
-
+    font-size: 30px;
 }
 .social:hover{
     color: rgb(156, 156, 156);
-
 }
+
 i{
     color: white;
 }
+
+.i:hover{
+    color: rgb(156, 156, 156);
+
+}
+
 .position{
     float: right;
 }
