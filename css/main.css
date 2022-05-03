@@ -1,11 +1,11 @@
 body {
+
 }
 header {
     background: black;
     height: 62px;
     width: 100%;
     z-index: 1000;
-    position: relative;
 
 }
 
@@ -22,21 +22,12 @@ header {
     }
 }
 
-@media only screen and (min-width: 1024px){ 
-[class^="col-"] {
-    float: left;
-    list-style: none;
-    position: relative;
-    }
-}
 .logo{
-    padding: 0 5%;
+    margin-left: 180px;
+    padding: 0 -5%;
     height: 92px;
     width: 92px;
 }
-
-
-
 
 ul {
     display: block;
@@ -64,9 +55,9 @@ li {
     position: relative;
     height: 92px;
     border: 0px;
-    padding-left:50px;
+    padding-left:25px;
     padding-right:25px;
-    margin-top: -25px;
+    margin-top: 20px;
     }
 }
 
@@ -82,23 +73,26 @@ li {
 }
 .social {
     color: white;
-    font-size: 36px;
+    font-size: 38px;
 }
-.social:hover{
-    color: rgb(156, 156, 156);
-}
+
 
 i{
     color: white;
 }
 
-.i:hover{
-    color: rgb(156, 156, 156);
 
-}
 
 .position{
     float: right;
+    display: inline-block;
+    position: relative;
+    height: 92px;
+    border: 0px;
+    padding-left:25px;
+    padding-right:25px;
+    margin-top: -25px;
+
 }
 
   /* Slide*/
@@ -108,7 +102,79 @@ i{
   }
   .img_slide {
     width: 100%;
-    height: 650px;
+    height: 500px;
     display: block;
-    object-fit: fill;
   }
+
+  
+  
+  .title_About{
+      color: #222222;
+      text-align: center;
+  }
+  .justify-content-center {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+  }
+  
+  #boxes-section {
+    text-align: center;
+  }
+
+  .section {
+    padding: 70px 0;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
+  div {
+    display: block;
+  }
+  
+  .info_title {
+    position: relative;
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: "raleway-bold";
+    color: #444649;
+    text-align: center;
+  }
+  
+  .justify-content-center {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+  }
+  
+  
+  .box-item {
+    text-align: center;
+    margin-bottom: 40px;
+  
+  }
+
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+
+  }
+ 
+  .box-icon {
+    margin-bottom: 15px;
+  }
+
+.box-title{
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.box-text{
+    margin-top: 15px;
+}
