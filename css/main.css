@@ -5,7 +5,7 @@ header {
     height: 62px;
     width: 100%;
     z-index: 1000;
-position: absolute;
+    position: absolute;
 
 }
 
@@ -73,7 +73,7 @@ li {
     color: white;
     display: inline;
     text-decoration:none;
-    font-size: 22px;
+    font-size: 20px;
 } 
 
 .nav_Link:hover{
