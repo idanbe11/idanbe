@@ -76,6 +76,8 @@ li {
 }
 .nav_Link{
     color: white;
+    display: inline;
+
 } 
 
 .nav_Link:hover{
