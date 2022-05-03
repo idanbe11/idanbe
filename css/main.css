@@ -68,7 +68,6 @@ header > nav {
 @media only screen and (min-width: 830px){ 
 li {
     display: inline-block;
-    float: left;
     position: relative;
     height: 92px;
     border: 0px;
