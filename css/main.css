@@ -7,7 +7,6 @@ header {
     width: 100%;
     position: absolute;
     z-index: 1000;
-    text-align: center;
 
 }
 
@@ -87,4 +86,7 @@ li {
 }
 .social {
     margin-left: 30px;
+}
+.position{
+    float: left;
 }
