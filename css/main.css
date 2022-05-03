@@ -166,4 +166,54 @@ body {
     div {
         display: block;
       }
+  
       
+      
+
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background: #ffffff;
+  }
+  
+  li {
+  float: right;
+  text-align: center;
+  
+  }
+  
+  
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 75px 14px 75px ;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  
+  li a:hover:not(.active) {
+    color: rgb(0, 0, 0);
+  }
+  
+  .active {
+    background-color: white;
+    font-size: 18px;
+    position: relative;
+    color: black;
+    min-height: 1px;
+  
+  }
+  
+  
+  .active:hover {
+  color:white;
+  background-color: #5e72e4;
+  border-radius: 7px;
+  
+  text-decoration:none;
+  
+  }
+  
