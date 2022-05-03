@@ -80,7 +80,8 @@ li {
 }
 .social {
     color: white;
-    font-size: 38px;
+    font-size: 36px;
+    margin-left: 20px;
 }
 .social:hover{
     color: rgb(156, 156, 156);
