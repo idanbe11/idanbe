@@ -2,7 +2,7 @@ body {
 
 }
 header {
-    background: black;
+    background: #252525;
     height: 62px;
     width: 100%;
     z-index: 1000;
@@ -11,7 +11,7 @@ header {
 
 @media only screen and (min-width: 830px){ 
 .header {
-    background: black;
+    background: #202020;
     height: 92px;
     }
 }
@@ -25,8 +25,9 @@ header {
 .logo{
     margin-left: 180px;
     padding: 0 -5%;
-    height: 92px;
-    width: 92px;
+    height: 55px;
+    width: 205px;
+    margin-top: 15px;
 }
 
 ul {
