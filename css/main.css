@@ -72,7 +72,11 @@ body {
       text-decoration:none;
   }
   
-  li{
+  .position:hover{
+    text-decoration:none;
+
+  }
+  li:hover{
     text-decoration:none;
 
   }
