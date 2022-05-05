@@ -1,0 +1,25 @@
+
+  @media only screen and (min-width: 830px){ 
+    .header {
+        background: #202020;
+        height: 92px;
+        }
+    }
+    
+    @media only screen and (min-width: 1024px){ 
+    .col-12 {
+        width: 100%;
+        }
+    }
+    
+    @media only screen and (min-width: 830px){ 
+        li {
+            display: inline-block;
+            position: relative;
+            height: 92px;
+            border: 0px;
+            padding-left:25px;
+            padding-right:25px;
+            margin-top: 20px;
+            }
+        }  

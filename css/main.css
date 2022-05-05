@@ -9,19 +9,6 @@ body {
       position: sticky;
   }
   
-  @media only screen and (min-width: 830px){ 
-  .header {
-      background: #202020;
-      height: 92px;
-      }
-  }
-  
-  @media only screen and (min-width: 1024px){ 
-  .col-12 {
-      width: 100%;
-      }
-  }
-  
   .logo{
       margin-left: 180px;
       padding: 0 -5%;
@@ -49,18 +36,7 @@ body {
       z-index: 1000;
       width: 100%;
   }
-  
-  @media only screen and (min-width: 830px){ 
-  li {
-      display: inline-block;
-      position: relative;
-      height: 92px;
-      border: 0px;
-      padding-left:25px;
-      padding-right:25px;
-      margin-top: 20px;
-      }
-  }
+
   
   .nav_Link{
       color: white;
